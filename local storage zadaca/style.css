@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(0, 51, 0);
+}
+
+#inputDiv {
+  height: 200px;
+  padding-top: 120px;
+  text-align: center;
+}
+
+#buttonDiv {
+  height: 200px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+#button,
+#button1 {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: white;
+}
+#button:hover,
+#button1:hover {
+  font-size: larger;
+  background-color: lightblue;
+}
+#input {
+  height: 40px;
+  width: 200px;
+  padding-left: 15px;
+  background-color: white;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+li {
+  margin: 10px;
+  background-color: aquamarine;
+  width: 10%;
+  padding: 10px;
+  text-align: center;
+  font-size: larger;
+}
